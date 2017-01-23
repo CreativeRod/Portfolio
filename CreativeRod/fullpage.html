@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Creative Rod | Designer</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="This is a personal online portfolio, visual playground and testing ground of Rod Pride aka Creative Rod. Most of the showcased work are web, graphics, and photography." />
+    <meta name="keywords" content="Web Design, Web Development, Graphic Design, Photography, Little Rock, Arkansas, Little Rock, UX Designer, Digital Specialist, Social Media, Brand Management"/>
+    <meta property="og:title" content="fullPage scroll snapping. Create full screen pages fast and simple">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="fullPage plugin by Alvaro Trigo. Mouse wheel snap to sections. Fast and simple to use.">
+    <!--Place Pic In Meta Tag Below-->
+    <meta property="og:image" content="https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/intro.png">
+
+    <!--CSS BELOW-->
+    <link rel="stylesheet" type="text/css" href="jquery.fullpage.min.css" />
+    <link rel="stylesheet" type="text/css" href="css\style.css" />
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+
+</head>
+<body>
+<a class="fork-me-band" href="https://github.com/alvarotrigo/fullPage.js"><img style="position: fixed;z-index:99; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+
+
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://alvarotrigo.com/fullPage/" data-text="Great plugin to create fullscreen scrolling websites: http://alvarotrigo.com/fullPage/">Tweet</a>
+
+<script>
+ ! function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0],
+		p = /^http:/.test(d.location) ? 'http' : 'https';
+	if (!d.getElementById(id)) {
+		js = d.createElement(s);
+		js.id = id;
+		js.src = p + '://platform.twitter.com/widgets.js';
+		fjs.parentNode.insertBefore(js, fjs);
+	}
+}
+(document, 'script', 'twitter-wjs');
+</script>
+
+<!-- <ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">Third section</a></li>
+    <li data-menuanchor="4thpage"><a href="#4thpage">Fourth section</a></li>
+</ul> -->
+
+<div id="fullpage">
+
+    <div class="section active" id="section0">
+        <!-- <h1>fullPage.js</h1>
+        <h2>Create Beautiful Fullscreen Scrolling Websites</h2>
+        <div id="download"><a href="https://github.com/alvarotrigo/fullpage.js/archive/master.zip">Download</a></div><br />
+        <img src="imgs/fullPage.png" alt="fullPage" height="243" width="282" id="logo" />
+        <p id="donations">
+            <a href="extensions/">fullpage.js Extensions</a>
+        </p>
+
+        <div id="usedBy"></div>
+
+        <div id="supportedBy">
+            <div>Supported by:</div>
+            <a href="http://www.browserstack.com/"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/browserstack2.png" /></a>
+        </div> -->
+
+    </div>
+    <div class="section" id="section1">
+        <div class="slide active">
+            <div class="intro">
+                <h1>Create Sliders</h1>
+                <p>Snap vertical sections and horizontal slides on scroll. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
+                <img data-src="imgs/slider.png" alt="slider" height="132" width="662" id="slidersImg" />
+            </div>
+
+        </div>
+        <div class="slide">
+            <div class="intro">
+                <img data-src="imgs/1.png" alt="simple" height="176" width="176" />
+                <h1>Simple</h1>
+                <p>Easy to use. Configurable and customizable.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="intro">
+                <img data-src="imgs/2.png" alt="Cool" height="176" width="176" />
+                <h1>Cool</h1>
+                <p>It just looks cool. Impress everybody with a simple and modern web design!</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="intro">
+                <img data-src="imgs/3.png" alt="Compatible" height="176" width="176" />
+                <h1>Compatible</h1>
+                <p>Working in modern and old browsers too! It's not IE 8 users' fault having to use that horrible browser! Lets give them a chance to see your site in a proper way!</p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="intro">
+            <h1>Easy to use plugin</h1>
+            <p>HTML markup example to define 4 sections.</p>
+            <img data-src="imgs/example2.png" alt="example" height="154" width="494" id="easyToUse" />
+        </div>
+    </div>
+    <div class="section" id="section3">
+        <div class="intro">
+            <h1>Working On Tablets</h1>
+            <p>
+                Designed to fit different screen sizes as well as tablet and mobile devices.
+                <br /><br /><br /><br /><br /><br />
+            </p>
+        </div>
+        <img data-src="imgs/tablets.png" alt="tablets" height="372" width="843" />
+    </div>
+</div>
+
+<div id="infoMenu">
+    <ul>
+        <li><a href="https://goo.gl/HuFudq">Wordpress theme</a></li>
+        <li><a href="https://github.com/alvarotrigo/fullPage.js/archive/master.zip">Download</a></li>
+        <li>
+            <a href="#" id="showExamples">Examples</a>
+            <div id="examplesList">
+                <div class="column">
+                    <h3>Navigation</h3>
+                    <ul>
+                    <li><a href="examples/scrollBar.html">Scroll Bar Enabled</a></li>
+                    <li><a href="examples/normalScroll.html">Normal scrolling</a></li>
+                    <li><a href="examples/continuous.html">Continuous vertical</a></li>
+                    <li><a href="examples/noAnchor.html">Without anchor links (same URL)</a></li>
+                    <li><a href="examples/navigationV.html">Vertical navigation dots</a></li>
+                    <li><a href="examples/navigationH.html">Horizontal navigation dots</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Design</h3>
+                    <ul>
+                        <li><a href="examples/responsive.html">Responsive</a></li>
+                        <li><a href="examples/backgrounds.html">Full backgrounds</a></li>
+                        <li><a href="examples/videoBackground.html">Full background videos</a></li>
+                        <li><a href="examples/autoHeight.html">Auto-height sections</a></li>
+                        <li><a href="examples/gradientBackgrounds.html">Gradient backgrounds</a></li>
+                        <li><a href="examples/scrolling.html">Scrolling inside sections and slides</a></li>
+                        <li><a href="examples/fixedHeaders.html">Adding fixed header and footer</a></li>
+                        <li><a href="examples/oneSection.html">One single section</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Extensions</h3>
+                    <ul>
+                        <li><a href="extensions/continuousHorizontal.html">Continuous horizontal</a></li>
+                        <li><a href="extensions/interlockedSlides.html">Interlocked Slides</a></li>
+                        <li><a href="extensions/resetSliders.html">Reset Sliders</a></li>
+                        <li><a href="extensions/responsiveSlides.html">Responsive Slides</a></li>
+                        <li><a href="extensions/scrollHorizontally.html">Horizontal mouse wheel</a></li>
+                        <li><a href="extensions/fadingEffect.html">Fading Effect</a></li>
+                        <li><a href="extensions/offsetSections.html">Offset Sections</a></li>
+                        <li><a href="extensions/dragAndMove.html">Drag And Move</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Other</h3>
+                    <ul>
+                        <li><a href="examples/apple.html">Animations on scrolling</a></li>
+                        <li><a href="examples/callbacks.html">Callbacks</a></li>
+                        <li><a href="examples/methods.html">Functions and methods</a></li>
+                        <li><a href="extensions/#navigation">Extra navigations</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </li>
+        <li><a href="https://github.com/alvarotrigo/fullPage.js#fullpagejs">Documentation</a></li>
+        <li><a href="http://alvarotrigo.com/#contact-page">Contact</a></li>
+    </ul>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="js\jquery.fullPage.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+            menu: '#menu',
+            css3: true,
+            scrollingSpeed: 1000
+        });
+
+        $('#showExamples').click(function(e){
+            e.stopPropagation();
+            e.preventDefault();
+            $('#examplesList').toggle();
+        });
+
+        $('html').click(function(){
+            $('#examplesList').hide();
+        });
+    });
+</script>
+</body>
+</html>

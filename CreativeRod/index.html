@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Creative Rod | Designer</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="This is a personal online portfolio, visual playground and testing ground of Rod Pride aka Creative Rod. Most of the showcased work are web, graphics, and photography." />
+    <meta name="keywords" content="Web Design, Web Development, Graphic Design, Photography, Little Rock, Arkansas, Little Rock, UX Designer, Digital Specialist, Social Media, Brand Management"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css\stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="css\slippry.css" />
+  </head>
+  <body>
+
+        <div class="jumbotron-fluid">
+            <ul id="pictures-demo">
+                <li title="This is caption 1 <a href='#link'>Even with links!</a>">
+                  <img src="img\DarkWorkspace.jpg" alt="demo1_1" class="img-fluid">
+                </li>
+                <li title="This is caption 2">
+                  <img src="img\Desktop.jpg"  alt="demo1_2" class="img-fluid">
+                </li>
+                <li title="And this is some very long caption for slide 3. Yes, really long.">
+                  <img src="img\minimalworkspace.jpg" alt="demo1_3" class="img-fluid">
+                </li>
+                <li title="And this is some very long caption for slide 4.">
+                  <img src="img\CodeBase.jpg" alt="demo1_4" class="img-fluid">
+                </li>
+              </ul>
+            </div>
+
+    <section class="section2">
+      <div class="row">
+        <div class="col-xs-12 col-md-4 col-md-offset-3">
+      <img src="img\laptop.jpg" class="rounded float-xs-left img-fluid" id="mason" alt="...">
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <img src="img\laptop.jpg" class="rounded float-xs-left img-fluid" id="mason" alt="...">
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <img src="img\laptop.jpg" class="rounded float-xs-left img-fluid" id="mason" alt="...">
+    </div>
+    </div>
+    </section>
+    <section class="section3">
+
+    </section>
+    <section class="section4">
+
+    </section>
+    <section class="section5">
+
+    </section>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <script src="js\slippry.min.js"></script>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <script>
+      jQuery('#pictures-demo').slippry({
+      // general elements & wrapper
+      slippryWrapper: '<div class="sy-box pictures-slider" />', // wrapper to wrap everything, including pager
+
+      // options
+      adaptiveHeight: false, // height of the sliders adapts to current slide
+      captions: false, // Position: overlay, below, custom, false
+
+      // pager
+      pager: false,
+
+      // controls
+      controls: false,
+      autoHover: false,
+
+      // transitions
+      transition: 'kenburns', // fade, horizontal, kenburns, false
+      kenZoom: 140,
+      speed: 5000 // time the transition takes (ms)
+      });
+    </script>
+
+
+
+  </body>
+</html>

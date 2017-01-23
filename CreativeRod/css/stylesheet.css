@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+.section1 {
+
+}
+.section2 {
+  height: 100vh;
+  background-color: #ECECEC;
+}
+.section3 {
+  height: 100vh;
+  background-color: #D24D57;
+}
+.section4 {
+  height: 100vh;
+  background-color: #ECECEC;
+}
+.section5 {
+  height: 50vh;
+  background-color: #22313F;
+}
+#slippryPhotoOne {
+  max-width: 100%;
+  height: auto;
+}
+#slippryPhotoTwo {
+  max-width: 100%;
+  height: auto;
+}
+#slippryPhotoThree {
+  max-width: 100%;
+  height: auto;
+}
+#slippryPhotoFour {
+  max-width: 100%;
+  height: auto;
+}
+#container {
+    background: #DDD;
+    max-width: 100%;
+}
+#mason {
+  max-width: 100%
+  height: auto;
+}
+.row div {
+  padding: 0;
+}
+.section2 img {
+  width: auto;
+}
