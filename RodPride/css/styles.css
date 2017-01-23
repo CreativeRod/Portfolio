@@ -1,0 +1,49 @@
+body {
+background-color: #eceff1;
+}
+
+nav {
+  background-color: #e57373;
+}
+
+#newsletter {
+  background-color: #37474f;
+}
+#newsletter p {
+  color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#newslettersend {
+  float: right;
+  margin-top: 30px;
+  background-color: #e57373;
+}
+
+#services h3, #team h3 {
+  text-align: center;
+}
+
+#team h3 {
+    color: #ffffff;
+}
+
+#team {
+  background-color: #37474f;
+}
+
+
+
+.serparagraph, .teamparagraph {
+  text-align: center;
+}
+
+.teamparagraph {
+  padding-bottom: 25px;
+  color: #ffffff;
+}
+
+.socialicons{
+  width: 40px;
+}
