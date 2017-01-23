@@ -47,3 +47,60 @@ nav {
 .socialicons{
   width: 40px;
 }
+
+
+.portfolio a {
+  font-size: 16px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 0px;
+  width: calc(25% - 4px);
+  margin-right: 0px;
+}
+
+.portfolio a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 75em) {
+  .portfolio a {
+    width: calc(25% - 6px);
+  }
+
+  .portfolio a:nth-of-type(2n) {
+    margin-right: 0px;
+  }
+
+  .portfolio a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+.portfolio a:hover img {
+  transform: scale(1.05);
+}
+
+.portfolio figure {
+  margin: 0;
+}
+
+.portfolio img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright a {
+  color: white;
+}
+
+.page-footer {
+  text-align: center;
+}
